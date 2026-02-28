@@ -1,56 +1,67 @@
-# DSA Practice Journey
+# DSA Practice Repository
 
-## About Me
-- B.E. in Artificial Intelligence & Machine Learning
-- BMS College of Engineering, Bangalore
-- Started Coding Journey: March 2026
-- Goal: Master DSA for placements 2028
+## About
+I'm Monish, a second-year AIML student at BMS College of Engineering, Bangalore. This repository tracks my journey learning Data Structures and Algorithms in preparation for placements in 2028.
 
-## Progress Tracker
+## Current Progress
 
-### Completed
-- C++ Basics (Variables, Loops, Conditionals, Arrays)
-- Strings and String Manipulation
-- Vectors (Dynamic Arrays)
-- 13 HackerRank Problems
-- 3 LeetCode Problems
+**Problems Solved: 13**
+- HackerRank: 10
+- LeetCode: 3
 
-### Currently Learning
-- Array and String Problems
-- Problem Solving Patterns
+**Topics Covered:**
+- C++ fundamentals (variables, loops, conditionals)
+- Arrays and basic operations
+- Strings and string manipulation
+- Vectors (dynamic arrays)
+- Pointers (introduction)
 
-### Statistics
-- **Total Problems Solved:** 16
-- **HackerRank:** 13 
-- **LeetCode:** 3 
-- **Days Coding:** 4 
+**Currently Working On:**
+- Array and string problems
+- Building problem-solving patterns
 
 ## Repository Structure
 ```
 DSA-Practice/
-├── Practice/          # Basic practice programs
+├── Practice/          
 │   ├── basics.cpp
+│   ├── practice.cpp
 │   ├── arrays.cpp
 │   ├── strings.cpp
 │   └── vectors.cpp
-├── HackerRank/        # HackerRank solutions (13 solved)
-└── LeetCode/          # LeetCode solutions (3 solved)
+├── HackerRank/        
+│   └── (10 problems)
+└── LeetCode/          
+    └── (3 problems)
 ```
 
-## 2-Year Goals
-- Solve 500+ DSA problems by Dec 2027
-- Master all major DSA topics
-- Build 5 ML projects
-- Secure internship in 3rd year
-- Land good placement in 2028
+## Goals
 
-## Progress Timeline
-- **Week 1:** C++ fundamentals, basic problems
-- **Week 2-4:** Arrays and strings (in progress)
-- **Month 2-3:** Advanced DSA topics
-- **Month 4+:** Regular practice + projects
+**Short-term (6 months):**
+- Solve 200+ problems across HackerRank and LeetCode
+- Cover all basic DSA topics
+- Start building small projects
 
-## Connect
-- GitHub: [@CalmOutlaws](https://github.com/CalmOutlaws)
+**Long-term (2 years):**
+- Solve 500+ problems by December 2027
+- Build 4-5 solid ML projects
+- Secure a good internship in third year
+- Be placement-ready by final year
+
+## Timeline
+
+- Day 1-3: C++ fundamentals, basic programs
+- Day 4: Strings, vectors, started LeetCode
+- Week 2 onwards: Array and string problems
+
+## Links
+
+- LeetCode: [CalmOutlaws7](https://leetcode.com/u/CalmOutlaws7/)
+- HackerRank: [monishmurugesh7](https://www.hackerrank.com/profile/monishmurugesh7)
 - Email: monishmurugesh7@gmail.com
-- LeetCode: https://leetcode.com/u/CalmOutlaws7/
+
+---
+
+Started: March 2026  
+Last Updated: March 2026
+```
