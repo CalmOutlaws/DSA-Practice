@@ -2,9 +2,9 @@
 
 ## About Me
 - B.E. in Artificial Intelligence & Machine Learning
-- 🏫 BMS College of Engineering, Bangalore
-- 📅 Started Coding Journey: March 2026
-- 🎯 Goal: Master DSA for placements 2028
+- BMS College of Engineering, Bangalore
+- Started Coding Journey: March 2026
+- Goal: Master DSA for placements 2028
 
 ## Progress Tracker
 
