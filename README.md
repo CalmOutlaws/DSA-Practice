@@ -9,29 +9,48 @@
 ## Progress Tracker
 
 ### Completed
-- C++ Basics (Variables, Loops, Conditionals)
-- Arrays Introduction
-- 10 HackerRank Problems
+- C++ Basics (Variables, Loops, Conditionals, Arrays)
+- Strings and String Manipulation
+- Vectors (Dynamic Arrays)
+- 13 HackerRank Problems
+- 3 LeetCode Problems
 
 ### Currently Learning
-- Array Problems
-- String Manipulation
-- Basic Algorithms
+- Array and String Problems
+- Problem Solving Patterns
+
+### Statistics
+- **Total Problems Solved:** 16
+- **HackerRank:** 13 
+- **LeetCode:** 3 
+- **Days Coding:** 4 
 
 ## Repository Structure
 ```
 DSA-Practice/
 ├── Practice/          # Basic practice programs
-├── HackerRank/        # HackerRank solutions
-└── LeetCode/          # LeetCode solutions (coming soon)
+│   ├── basics.cpp
+│   ├── arrays.cpp
+│   ├── strings.cpp
+│   └── vectors.cpp
+├── HackerRank/        # HackerRank solutions (13 solved)
+└── LeetCode/          # LeetCode solutions (3 solved)
 ```
 
-## Goals
+## 2-Year Goals
 - Solve 500+ DSA problems by Dec 2027
+- Master all major DSA topics
 - Build 5 ML projects
-- Contribute to open source
-- Secure good placement in 2028
+- Secure internship in 3rd year
+- Land good placement in 2028
+
+## Progress Timeline
+- **Week 1:** C++ fundamentals, basic problems
+- **Week 2-4:** Arrays and strings (in progress)
+- **Month 2-3:** Advanced DSA topics
+- **Month 4+:** Regular practice + projects
 
 ## Connect
-- LinkedIn: https://www.linkedin.com/in/monish-m-7aa4a032b/
+- GitHub: [@CalmOutlaws](https://github.com/CalmOutlaws)
 - Email: monishmurugesh7@gmail.com
+- LeetCode: https://leetcode.com/u/CalmOutlaws7/
