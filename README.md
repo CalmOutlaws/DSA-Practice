@@ -5,9 +5,9 @@ I'm Monish, a second-year AIML student at BMS College of Engineering, Bangalore.
 
 ## Current Progress
 
-**Problems Solved: 20**
+**Problems Solved: 24**
 - HackerRank: 10
-- LeetCode: 10
+- LeetCode: 14
 
 **Topics Covered:**
 - C++ fundamentals (variables, loops, conditionals)
@@ -20,27 +20,26 @@ I'm Monish, a second-year AIML student at BMS College of Engineering, Bangalore.
 - Two pointer technique
 
 **Currently Working On:**
-- Array and string problems
-- Understanding algorithm efficiency
+- Array problem patterns
+- Building consistency
 
 ## Repository Structure
 ```
 DSA-Practice/
 ├── Practice/          
-│   ├── basics.cpp
-│   ├── practice.cpp
-│   ├── arrays.cpp
-│   ├── strings.cpp
-│   ├── vectors.cpp
-│   ├── time_complexity.cpp
-│   ├── array_patterns.cpp
-│   ├── sorting_basics.cpp
-│   └── second_largest.cpp
+│   └── (basic practice files)
 ├── HackerRank/        
 │   └── (10 problems)
 └── LeetCode/          
-    └── (10 problems)
+    └── (14 problems)
 ```
+
+## Weekly Progress
+
+**Week 1 (March 1-7):**
+- Days active: 6
+- Problems solved: 24
+- Consistency maintained
 
 ## Goals
 
@@ -60,6 +59,7 @@ DSA-Practice/
 - Day 1-3: C++ fundamentals, basic programs
 - Day 4: Strings, vectors, started LeetCode
 - Day 5: Time complexity, sorting, array problems
+- Day 6: More array problems, 3 solved
 
 ## Links
 
@@ -69,5 +69,5 @@ DSA-Practice/
 
 ---
 
-Started: February 2026  
-Last Updated: March 2026
+Started: March 1, 2026  
+Last Updated: March 7, 2026
