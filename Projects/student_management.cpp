@@ -39,6 +39,52 @@ void displayMenu() {
     cout << "Enter choice: ";
 }
 
+void addStudent() {
+    Student s;
+
+    cout << "\nEnter student name: ";
+    cin.ignore();
+    getline(cin, s.name);
+
+    cout << "Enter roll number: ";
+    cin >> s.rollNo;
+
+    cout << "Enter marks for 3 subjects: " << endl;
+    for (int i = 0; i < 3; i++) {
+        cout << "Subject " << i + 1 << ": ";
+        cin >> s.marks[i];
+    }
+
+    s.calculatePercentage();
+    s.calculateGrade();
+
+    students.push_back(s);
+    cout << "\nStudent added successfully!" << endl;
+    cout << "Percentage: " << fixed << setprecision(2) << s.percentage << "%" << endl;
+    cout << "Grade: " << s.grade << endl;
+}
+
+void displayALLStudents() {
+    if(students.empty()) {
+        cout << "\nNo students in system!" << endl;
+        return;
+    }
+
+    cout << "\n========== All Students ==========" << endl;
+    cout << left << setw(15) << "Name"
+         << setw(10) << "Roll No"
+         << setw(12) << "Percentage"
+         << setw(8) << "Grade" << endl;
+    cout << string(45, '-') << endl;
+
+    for (Student s : students) {
+        cout << left << setw(15) << s.name
+             << setw(10) << s.rollNo
+             << setw(12) << fixed << setprecision(2) << s.percentage
+             << setw(8) << s.grade << endl;
+    }
+}
+
 int main() {
     int choice;
 
@@ -48,10 +94,10 @@ int main() {
 
         switch(choice) {
             case 1:
-                // Add student
+                addStudent();
                 break;
             case 2:
-                // Display all
+                displayALLStudents();
                 break;
             case 3:
                 // Find topper
