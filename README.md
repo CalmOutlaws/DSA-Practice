@@ -9,6 +9,9 @@ I'm Monish, a second-year AIML student at BMS College of Engineering, Bangalore.
 - HackerRank: 10
 - LeetCode: 14
 
+**Projects: 1**
+- Student Grade Management System
+
 **Topics Covered:**
 - C++ fundamentals (variables, loops, conditionals)
 - Arrays and array manipulation
@@ -18,35 +21,50 @@ I'm Monish, a second-year AIML student at BMS College of Engineering, Bangalore.
 - Time complexity basics (Big O notation)
 - Sorting algorithms (bubble sort, selection sort)
 - Two pointer technique
+- File handling (reading/writing)
+- Structures and data organization
 
 **Currently Working On:**
-- Array problem patterns
-- Building consistency
+- Building practical projects
+- Solving array problems
 
 ## Repository Structure
 ```
 DSA-Practice/
 ├── Practice/          
-│   └── (basic practice files)
+│   └── (practice files)
 ├── HackerRank/        
 │   └── (10 problems)
-└── LeetCode/          
-    └── (14 problems)
+├── LeetCode/          
+│   └── (14 problems)
+└── Projects/
+    └── Student Grade Management System
 ```
+
+## Projects
+
+### 1. Student Grade Management System
+A console-based application to manage student grades with features like:
+- Add/display students
+- Calculate percentage and grades
+- Find topper
+- File persistence
+
+[View Project](./Projects/)
 
 ## Weekly Progress
 
 **Week 1 (March 1-7):**
-- Days active: 6
+- Days active: 7
 - Problems solved: 24
-- Consistency maintained
+- Projects completed: 1
 
 ## Goals
 
 **Short-term (6 months):**
 - Solve 200+ problems across HackerRank and LeetCode
+- Build 3-4 small projects
 - Cover all basic DSA topics
-- Start building small projects
 
 **Long-term (2 years):**
 - Solve 500+ problems by December 2027
@@ -60,6 +78,7 @@ DSA-Practice/
 - Day 4: Strings, vectors, started LeetCode
 - Day 5: Time complexity, sorting, array problems
 - Day 6: More array problems, 3 solved
+- Day 7: Built first project - Student Management System
 
 ## Links
 
@@ -70,4 +89,4 @@ DSA-Practice/
 ---
 
 Started: March 1, 2026  
-Last Updated: March 7, 2026
+Last Updated: March 8, 2026
