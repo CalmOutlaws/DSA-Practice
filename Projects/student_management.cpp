@@ -85,6 +85,70 @@ void displayALLStudents() {
     }
 }
 
+void findTopper() {
+    if (students.empty()) {
+        cout << "\nNo students in system!" << endl;
+        return;
+    }
+
+    Student topper = students[0];
+    for (Student s : students) {
+        if (s.percentage > topper.percentage) {
+            topper = s;
+        }
+    }
+
+    cout << "\n===== TOPPER =====" << endl;
+    cout << "Name: " << topper.name << endl;
+    cout << "Roll No: " << topper.rollNo << endl;
+    cout << "Percentage: " << fixed << setprecision(2) << topper.percentage << "%" << endl;
+    cout << "Grade: " << topper.grade << endl;
+}
+
+void saveToFile() {
+    ofstream file("students.txt");
+
+    if(!file) {
+        cout << "Error opening file!" << endl;
+        return;
+    }
+
+    for (Student s : students) {
+        file << s.name << endl;
+        file << s.rollNo << endl;
+        file << s.marks[0] << " " << s.marks[1] << " " << s.marks[2] << endl;
+    }
+
+    file.close();
+    cout << "\nData saved to students.txt!" << endl;
+}
+
+void loadFromFile() {
+    ifstream file("students.txt");
+
+    if(!file) {
+        cout << "No saved data found!" <<  endl;
+        return;
+    }
+
+    students.clear();
+
+    Student s;
+    while (getline(file, s.name)) {
+        file >> s.rollNo;
+        file >> s.marks[0] >> s.marks[1] >> s.marks[2];
+        file.ignore();
+
+        s.calculatePercentage();
+        s.calculateGrade();
+
+        students.push_back(s);
+    }
+
+    file.close();
+    cout << "\nData loaded successfully! " << students.size() << " students loaded." << endl;
+}
+
 int main() {
     int choice;
 
@@ -100,13 +164,13 @@ int main() {
                 displayALLStudents();
                 break;
             case 3:
-                // Find topper
+                findTopper();
                 break;
             case 4:
-                // Save
+                saveToFile();
                 break;
             case 5:
-                // Load
+                loadFromFile();
                 break;
             case 6:
                 cout << "Exiting..." << endl;
